@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+require 'rest-client'
+require 'JSON'
+
+require_relative "../lib/api"
+require_relative "../lib/character"
+require_relative "../lib/cli"
+# Api.create_characters
+CLI.new.run
